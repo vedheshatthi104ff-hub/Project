@@ -89,7 +89,7 @@ Practical reading: use the model score to rank the whole inventory and decide wh
 ## 7. Reproducibility
 
 - Repo: [github.com/vedheshatthi104ff-hub/Internship](https://github.com/vedheshatthi104ff-hub/Internship)
-- Notebooks: `work/notebooks/` (weekly notebooks and `capstone.ipynb`). Results are saved in `work/outputs/capstone_results.json`.
+- Notebooks: `work/notebooks/` (weekly notebooks and `capstone.ipynb`).Project colab Notebook:https://github.com/vedheshatthi104ff-hub/Project/blob/main/Project.ipynb.
 - To rerun: open `capstone.ipynb` in Colab, add a read-only `HF_TOKEN` secret (request access to the gated release first), and run all cells. The development data is cached after the first run, and random seeds are fixed.
 
 ## 8. Acknowledgments and data credit

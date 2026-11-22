@@ -60,9 +60,9 @@ The rule scored below chance on development data. Precision@50 varied a lot betw
 
 ![Random forest feature importance](charts/feature_importance.png)
 
-[FILL: one sentence on the top 3 features from the importance printout, e.g. "The most important features were X, Y and Z."]
 
-**Shape of the signal.** In development, the share of pages that declined was close to the base rate for most values of the trend ratio, and clearly lower for pages whose recent impressions were far above their earlier level (about 0.29 for the highest group). [FILL: one or two sentences from the decile table, e.g. whether the highest-scored decile really declined more often than the lowest, and the decline rates for both.] [FILL: one sentence from the top-50 profile, e.g. that the highest-scored pages had low recent volume and very high trend ratios, which are the noisiest cases.]
+
+**Shape of the signal.** In development, the share of pages that declined was close to the base rate for most values of the trend ratio, and clearly lower for pages whose recent impressions were far above their earlier level (about 0.29 for the highest group). The trend-bin analysis shows that decline rates were not consistently higher for pages with lower trend ratios across most bins. However, pages in the highest trend-ratio group had a substantially lower observed decline rate of 0.292, compared with 0.542 in the lowest group. This suggests that pages experiencing a strong recent increase in impressions were less likely to meet the decline label in the following window, although trend ratio alone does not consistently separate declining pages across all groups. The visible highest-ranked examples were dominated by the high_model_risk reason code and the monitor action, rather than an immediate refresh recommendation. The displayed top-ranked pages had relatively low recent impression volumes (121–828) and very high trend ratios (approximately 5.3–84.6), indicating that the highest model scores may be influenced by noisy or rapidly changing page activity. This reinforces the need to manually verify recent volume and trends before acting on the ranking.
 
 ## 5. Limitations and honest framing
 
